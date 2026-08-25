@@ -1,0 +1,121 @@
+record_type,record_id,amount,diagnosis,action_taken,explanation,recovered,recovered_amount,is_exception
+payment,pay_1000,570.16,bank_timeout,auto_retry,"Failure was 'bank_timeout', which is usually temporary. Safe to auto-retry.",True,570.16,False
+payment,pay_1001,10215.15,network_error,give_up_flag_human,Already retried 3 times. Stopping — flagging for a human to check.,False,0.0,True
+payment,pay_1002,1586.69,card_declined,request_alternate_payment_method,Card was declined. Asking the customer to try a different payment method.,True,1586.69,False
+payment,pay_1003,6408.89,3ds_failed,send_auth_reminder,Authentication step failed. Ask the customer to complete verification again.,True,6408.89,False
+payment,pay_1004,5235.71,card_declined,request_alternate_payment_method,Card was declined. Asking the customer to try a different payment method.,False,0.0,False
+payment,pay_1005,5822.92,bank_timeout,auto_retry,"Failure was 'bank_timeout', which is usually temporary. Safe to auto-retry.",True,5822.92,False
+payment,pay_1006,8136.18,3ds_failed,send_auth_reminder,Authentication step failed. Ask the customer to complete verification again.,True,8136.18,False
+payment,pay_1007,13304.69,bank_timeout,auto_retry,"Failure was 'bank_timeout', which is usually temporary. Safe to auto-retry.",False,0.0,False
+payment,pay_1008,11641.41,insufficient_funds,send_payment_link_reminder,Insufficient funds — retrying won't help. Send a reminder instead so the customer can try again later.,False,0.0,False
+payment,pay_1009,6910.47,bank_timeout,auto_retry,"Failure was 'bank_timeout', which is usually temporary. Safe to auto-retry.",False,0.0,False
+payment,pay_1010,10118.59,insufficient_funds,send_payment_link_reminder,Insufficient funds — retrying won't help. Send a reminder instead so the customer can try again later.,False,0.0,False
+payment,pay_1011,5815.94,network_error,auto_retry,"Failure was 'network_error', which is usually temporary. Safe to auto-retry.",True,5815.94,False
+payment,pay_1012,12362.68,bank_timeout,auto_retry,"Failure was 'bank_timeout', which is usually temporary. Safe to auto-retry.",False,0.0,False
+payment,pay_1013,13714.41,network_error,auto_retry,"Failure was 'network_error', which is usually temporary. Safe to auto-retry.",True,13714.41,False
+payment,pay_1014,6055.35,3ds_failed,send_auth_reminder,Authentication step failed. Ask the customer to complete verification again.,False,0.0,False
+payment,pay_1015,11225.84,network_error,give_up_flag_human,Already retried 3 times. Stopping — flagging for a human to check.,False,0.0,True
+payment,pay_1016,5557.55,card_declined,request_alternate_payment_method,Card was declined. Asking the customer to try a different payment method.,False,0.0,False
+payment,pay_1017,2462.05,card_declined,request_alternate_payment_method,Card was declined. Asking the customer to try a different payment method.,False,0.0,False
+payment,pay_1018,9019.15,3ds_failed,send_auth_reminder,Authentication step failed. Ask the customer to complete verification again.,True,9019.15,False
+payment,pay_1019,10289.31,network_error,auto_retry,"Failure was 'network_error', which is usually temporary. Safe to auto-retry.",False,0.0,False
+payment,pay_1020,6634.53,3ds_failed,send_auth_reminder,Authentication step failed. Ask the customer to complete verification again.,False,0.0,False
+payment,pay_1021,7713.69,insufficient_funds,send_payment_link_reminder,Insufficient funds — retrying won't help. Send a reminder instead so the customer can try again later.,True,7713.69,False
+payment,pay_1022,11485.16,network_error,auto_retry,"Failure was 'network_error', which is usually temporary. Safe to auto-retry.",False,0.0,False
+payment,pay_1023,1855.64,bank_timeout,auto_retry,"Failure was 'bank_timeout', which is usually temporary. Safe to auto-retry.",True,1855.64,False
+payment,pay_1024,13194.54,insufficient_funds,give_up_flag_human,Already retried 3 times. Stopping — flagging for a human to check.,False,0.0,True
+payment,pay_1025,11534.35,card_declined,request_alternate_payment_method,Card was declined. Asking the customer to try a different payment method.,False,0.0,False
+payment,pay_1026,13112.01,3ds_failed,send_auth_reminder,Authentication step failed. Ask the customer to complete verification again.,True,13112.01,False
+payment,pay_1027,14928.21,bank_timeout,give_up_flag_human,Already retried 3 times. Stopping — flagging for a human to check.,False,0.0,True
+payment,pay_1028,3525.52,bank_timeout,auto_retry,"Failure was 'bank_timeout', which is usually temporary. Safe to auto-retry.",True,3525.52,False
+payment,pay_1029,306.42,insufficient_funds,send_payment_link_reminder,Insufficient funds — retrying won't help. Send a reminder instead so the customer can try again later.,True,306.42,False
+payment,pay_1030,1248.69,card_declined,give_up_flag_human,Already retried 3 times. Stopping — flagging for a human to check.,False,0.0,True
+payment,pay_1031,2158.22,network_error,auto_retry,"Failure was 'network_error', which is usually temporary. Safe to auto-retry.",True,2158.22,False
+payment,pay_1032,3018.07,insufficient_funds,send_payment_link_reminder,Insufficient funds — retrying won't help. Send a reminder instead so the customer can try again later.,False,0.0,False
+payment,pay_1033,7111.97,insufficient_funds,send_payment_link_reminder,Insufficient funds — retrying won't help. Send a reminder instead so the customer can try again later.,False,0.0,False
+payment,pay_1034,12048.77,insufficient_funds,send_payment_link_reminder,Insufficient funds — retrying won't help. Send a reminder instead so the customer can try again later.,False,0.0,False
+payment,pay_1035,6839.48,3ds_failed,send_auth_reminder,Authentication step failed. Ask the customer to complete verification again.,False,0.0,False
+payment,pay_1036,13142.39,insufficient_funds,send_payment_link_reminder,Insufficient funds — retrying won't help. Send a reminder instead so the customer can try again later.,False,0.0,False
+payment,pay_1037,12573.21,insufficient_funds,send_payment_link_reminder,Insufficient funds — retrying won't help. Send a reminder instead so the customer can try again later.,True,12573.21,False
+payment,pay_1038,7324.1,3ds_failed,send_auth_reminder,Authentication step failed. Ask the customer to complete verification again.,False,0.0,False
+payment,pay_1039,14782.57,bank_timeout,auto_retry,"Failure was 'bank_timeout', which is usually temporary. Safe to auto-retry.",True,14782.57,False
+payment,pay_1040,9995.7,3ds_failed,send_auth_reminder,Authentication step failed. Ask the customer to complete verification again.,False,0.0,False
+payment,pay_1041,14536.9,network_error,auto_retry,"Failure was 'network_error', which is usually temporary. Safe to auto-retry.",False,0.0,False
+payment,pay_1042,8845.83,network_error,auto_retry,"Failure was 'network_error', which is usually temporary. Safe to auto-retry.",False,0.0,False
+payment,pay_1043,12799.87,insufficient_funds,send_payment_link_reminder,Insufficient funds — retrying won't help. Send a reminder instead so the customer can try again later.,False,0.0,False
+payment,pay_1044,14135.62,network_error,auto_retry,"Failure was 'network_error', which is usually temporary. Safe to auto-retry.",False,0.0,False
+payment,pay_1045,6404.53,network_error,auto_retry,"Failure was 'network_error', which is usually temporary. Safe to auto-retry.",True,6404.53,False
+payment,pay_1046,3732.55,3ds_failed,send_auth_reminder,Authentication step failed. Ask the customer to complete verification again.,True,3732.55,False
+payment,pay_1047,13949.47,insufficient_funds,give_up_flag_human,Already retried 3 times. Stopping — flagging for a human to check.,False,0.0,True
+payment,pay_1048,14942.23,insufficient_funds,send_payment_link_reminder,Insufficient funds — retrying won't help. Send a reminder instead so the customer can try again later.,False,0.0,False
+payment,pay_1049,13236.79,card_declined,request_alternate_payment_method,Card was declined. Asking the customer to try a different payment method.,True,13236.79,False
+payment,pay_1050,12539.43,bank_timeout,auto_retry,"Failure was 'bank_timeout', which is usually temporary. Safe to auto-retry.",True,12539.43,False
+payment,pay_1051,14096.16,card_declined,request_alternate_payment_method,Card was declined. Asking the customer to try a different payment method.,True,14096.16,False
+payment,pay_1052,2500.63,bank_timeout,auto_retry,"Failure was 'bank_timeout', which is usually temporary. Safe to auto-retry.",True,2500.63,False
+payment,pay_1053,7680.05,bank_timeout,auto_retry,"Failure was 'bank_timeout', which is usually temporary. Safe to auto-retry.",True,7680.05,False
+payment,pay_1054,12474.35,insufficient_funds,send_payment_link_reminder,Insufficient funds — retrying won't help. Send a reminder instead so the customer can try again later.,True,12474.35,False
+payment,pay_1055,2591.41,3ds_failed,send_auth_reminder,Authentication step failed. Ask the customer to complete verification again.,False,0.0,False
+payment,pay_1056,14186.75,card_declined,request_alternate_payment_method,Card was declined. Asking the customer to try a different payment method.,True,14186.75,False
+payment,pay_1057,2391.79,card_declined,request_alternate_payment_method,Card was declined. Asking the customer to try a different payment method.,False,0.0,False
+payment,pay_1058,13504.08,card_declined,request_alternate_payment_method,Card was declined. Asking the customer to try a different payment method.,True,13504.08,False
+payment,pay_1059,13285.19,3ds_failed,send_auth_reminder,Authentication step failed. Ask the customer to complete verification again.,True,13285.19,False
+payment,pay_1060,13244.96,insufficient_funds,send_payment_link_reminder,Insufficient funds — retrying won't help. Send a reminder instead so the customer can try again later.,True,13244.96,False
+payment,pay_1061,4148.72,insufficient_funds,send_payment_link_reminder,Insufficient funds — retrying won't help. Send a reminder instead so the customer can try again later.,False,0.0,False
+payment,pay_1062,3153.68,3ds_failed,send_auth_reminder,Authentication step failed. Ask the customer to complete verification again.,False,0.0,False
+payment,pay_1063,550.23,card_declined,request_alternate_payment_method,Card was declined. Asking the customer to try a different payment method.,False,0.0,False
+payment,pay_1064,14509.96,bank_timeout,give_up_flag_human,Already retried 3 times. Stopping — flagging for a human to check.,False,0.0,True
+payment,pay_1065,5101.02,insufficient_funds,send_payment_link_reminder,Insufficient funds — retrying won't help. Send a reminder instead so the customer can try again later.,False,0.0,False
+payment,pay_1066,14445.51,bank_timeout,auto_retry,"Failure was 'bank_timeout', which is usually temporary. Safe to auto-retry.",True,14445.51,False
+payment,pay_1067,5316.17,bank_timeout,auto_retry,"Failure was 'bank_timeout', which is usually temporary. Safe to auto-retry.",False,0.0,False
+payment,pay_1068,3013.17,insufficient_funds,send_payment_link_reminder,Insufficient funds — retrying won't help. Send a reminder instead so the customer can try again later.,False,0.0,False
+payment,pay_1069,10365.49,card_declined,give_up_flag_human,Already retried 3 times. Stopping — flagging for a human to check.,False,0.0,True
+invoice,inv_2000,131932.22,"21 days overdue, always_on_time",gentle_reminder,Usually pays on time — probably just an oversight. Gentle nudge should work.,True,131932.22,False
+invoice,inv_2001,76309.34,"5 days overdue, chronic_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",True,76309.34,False
+invoice,inv_2002,12311.65,"4 days overdue, chronic_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",True,12311.65,False
+invoice,inv_2003,51929.29,"28 days overdue, sometimes_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",True,51929.29,False
+invoice,inv_2004,166236.16,"36 days overdue, sometimes_late",firm_reminder_with_deadline,36 days overdue. Sending a firm reminder with a clear deadline.,True,166236.16,False
+invoice,inv_2005,189803.24,"8 days overdue, always_on_time",gentle_reminder,Usually pays on time — probably just an oversight. Gentle nudge should work.,True,189803.24,False
+invoice,inv_2006,14669.92,"37 days overdue, chronic_late",escalate_to_collections,37 days overdue and customer has a chronic-late history. Escalating to a human.,True,14669.92,True
+invoice,inv_2007,172401.35,"15 days overdue, always_on_time",gentle_reminder,Usually pays on time — probably just an oversight. Gentle nudge should work.,True,172401.35,False
+invoice,inv_2008,110433.75,"19 days overdue, sometimes_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",False,0.0,False
+invoice,inv_2009,164144.64,"37 days overdue, sometimes_late",firm_reminder_with_deadline,37 days overdue. Sending a firm reminder with a clear deadline.,False,0.0,False
+invoice,inv_2010,116384.86,"12 days overdue, always_on_time",gentle_reminder,Usually pays on time — probably just an oversight. Gentle nudge should work.,False,0.0,False
+invoice,inv_2011,111810.17,"13 days overdue, sometimes_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",False,0.0,False
+invoice,inv_2012,125706.87,"5 days overdue, chronic_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",True,125706.87,False
+invoice,inv_2013,88380.5,"32 days overdue, chronic_late",escalate_to_collections,32 days overdue and customer has a chronic-late history. Escalating to a human.,False,0.0,True
+invoice,inv_2014,185071.07,"21 days overdue, sometimes_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",True,185071.07,False
+invoice,inv_2015,159904.0,"24 days overdue, sometimes_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",True,159904.0,False
+invoice,inv_2016,117012.62,"45 days overdue, always_on_time",firm_reminder_with_deadline,45 days overdue. Sending a firm reminder with a clear deadline.,True,117012.62,False
+invoice,inv_2017,147241.83,"34 days overdue, sometimes_late",firm_reminder_with_deadline,34 days overdue. Sending a firm reminder with a clear deadline.,False,0.0,False
+invoice,inv_2018,28022.83,"19 days overdue, chronic_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",True,28022.83,False
+invoice,inv_2019,34636.98,"27 days overdue, always_on_time",gentle_reminder,Usually pays on time — probably just an oversight. Gentle nudge should work.,True,34636.98,False
+invoice,inv_2020,192593.72,"32 days overdue, sometimes_late",firm_reminder_with_deadline,32 days overdue. Sending a firm reminder with a clear deadline.,True,192593.72,False
+invoice,inv_2021,158873.36,"5 days overdue, chronic_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",False,0.0,False
+invoice,inv_2022,140582.6,"53 days overdue, sometimes_late",firm_reminder_with_deadline,53 days overdue. Sending a firm reminder with a clear deadline.,True,140582.6,False
+invoice,inv_2023,160393.94,"39 days overdue, sometimes_late",firm_reminder_with_deadline,39 days overdue. Sending a firm reminder with a clear deadline.,False,0.0,False
+invoice,inv_2024,97449.18,"5 days overdue, always_on_time",gentle_reminder,Usually pays on time — probably just an oversight. Gentle nudge should work.,True,97449.18,False
+invoice,inv_2025,147576.07,"43 days overdue, always_on_time",firm_reminder_with_deadline,43 days overdue. Sending a firm reminder with a clear deadline.,True,147576.07,False
+invoice,inv_2026,198653.71,"20 days overdue, chronic_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",False,0.0,False
+invoice,inv_2027,144742.42,"53 days overdue, sometimes_late",firm_reminder_with_deadline,53 days overdue. Sending a firm reminder with a clear deadline.,False,0.0,False
+invoice,inv_2028,9399.77,"57 days overdue, chronic_late",escalate_to_collections,57 days overdue and customer has a chronic-late history. Escalating to a human.,False,0.0,True
+invoice,inv_2029,124129.31,"30 days overdue, sometimes_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",True,124129.31,False
+invoice,inv_2030,154805.43,"32 days overdue, always_on_time",firm_reminder_with_deadline,32 days overdue. Sending a firm reminder with a clear deadline.,False,0.0,False
+invoice,inv_2031,82590.05,"9 days overdue, chronic_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",True,82590.05,False
+invoice,inv_2032,37441.43,"59 days overdue, sometimes_late",firm_reminder_with_deadline,59 days overdue. Sending a firm reminder with a clear deadline.,False,0.0,False
+invoice,inv_2033,177259.85,"26 days overdue, chronic_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",False,0.0,False
+invoice,inv_2034,59292.11,"53 days overdue, sometimes_late",firm_reminder_with_deadline,53 days overdue. Sending a firm reminder with a clear deadline.,True,59292.11,False
+invoice,inv_2035,191757.58,"27 days overdue, sometimes_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",False,0.0,False
+invoice,inv_2036,34503.18,"10 days overdue, always_on_time",gentle_reminder,Usually pays on time — probably just an oversight. Gentle nudge should work.,False,0.0,False
+invoice,inv_2037,99567.73,"43 days overdue, always_on_time",firm_reminder_with_deadline,43 days overdue. Sending a firm reminder with a clear deadline.,True,99567.73,False
+invoice,inv_2038,59976.49,"38 days overdue, always_on_time",firm_reminder_with_deadline,38 days overdue. Sending a firm reminder with a clear deadline.,False,0.0,False
+invoice,inv_2039,77004.45,"10 days overdue, sometimes_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",False,0.0,False
+invoice,inv_2040,139646.26,"37 days overdue, sometimes_late",firm_reminder_with_deadline,37 days overdue. Sending a firm reminder with a clear deadline.,True,139646.26,False
+invoice,inv_2041,94045.53,"33 days overdue, chronic_late",escalate_to_collections,33 days overdue and customer has a chronic-late history. Escalating to a human.,False,0.0,True
+invoice,inv_2042,81513.89,"56 days overdue, chronic_late",escalate_to_collections,56 days overdue and customer has a chronic-late history. Escalating to a human.,False,0.0,True
+invoice,inv_2043,98896.95,"26 days overdue, sometimes_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",True,98896.95,False
+invoice,inv_2044,18132.79,"26 days overdue, always_on_time",gentle_reminder,Usually pays on time — probably just an oversight. Gentle nudge should work.,True,18132.79,False
+invoice,inv_2045,26436.02,"14 days overdue, sometimes_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",False,0.0,False
+invoice,inv_2046,5045.49,"39 days overdue, always_on_time",firm_reminder_with_deadline,39 days overdue. Sending a firm reminder with a clear deadline.,True,5045.49,False
+invoice,inv_2047,190045.01,"10 days overdue, chronic_late",reminder_with_deadline,"Somewhat overdue, customer has a mixed payment history. Standard reminder with a deadline.",False,0.0,False
+invoice,inv_2048,175494.81,"40 days overdue, always_on_time",firm_reminder_with_deadline,40 days overdue. Sending a firm reminder with a clear deadline.,False,0.0,False
+invoice,inv_2049,128709.87,"40 days overdue, sometimes_late",firm_reminder_with_deadline,40 days overdue. Sending a firm reminder with a clear deadline.,False,0.0,False

@@ -54,14 +54,15 @@ Synthetic Data (CSV)
 ## How to Run This Yourself
 
 1. Clone this repo
-2. Install dependencies: `pip install pandas streamlit ibm-watsonx-ai`
-3. Create your own `credentials.py` with your IBM watsonx API key and Project ID (see `credentials_example.py` for the format)
-4. Run the pipeline in order:
+2. Install dependencies: `pip install -r requirements.txt`
+3. **Optional:** to see the dashboard immediately, skip to step 5 — `audit_trail_with_ai.csv` is already included with real AI-generated explanations, so no credentials are needed for this.
+4. To regenerate the AI explanations yourself: create your own `credentials.py` with your IBM watsonx API key and Project ID (see `credentials_example.py` for the format)
+5. Run the pipeline:
    - `python generate_data.py`
    - `python generate_invoices.py`
    - `python decision_logic.py`
-   - `python ai_explain.py`
-   - `streamlit run dashboard.py`
+   - `python ai_explain.py` *(requires credentials.py)*
+   - `streamlit run dashboard.py` *(works without credentials.py)*
 
 
 **Note:** `audit_trail_with_ai.csv` is already included with real AI-generated explanations, so you can run `streamlit run dashboard.py` immediately without needing your own IBM watsonx credentials. Credentials are only required if you want to regenerate the AI explanations yourself via `ai_explain.py`.

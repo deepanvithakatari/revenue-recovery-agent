@@ -48,6 +48,8 @@ Synthetic Data (CSV)
    - `python decision_logic.py`
    - `python ai_explain.py`
    - `streamlit run dashboard.py`
+
+   
 **Note:** `audit_trail_with_ai.csv` is already included with real AI-generated explanations, so you can run `streamlit run dashboard.py` immediately without needing your own IBM watsonx credentials. Credentials are only required if you want to regenerate the AI explanations yourself via `ai_explain.py`.
 
 ## What I'd Build Next

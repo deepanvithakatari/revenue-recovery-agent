@@ -1,4 +1,4 @@
-# 💰 AI Revenue Recovery Agent
+# AI Revenue Recovery Agent
 
 An AI agent that finds money slipping away — failed payments and overdue invoices — diagnoses the root cause, takes a bounded recovery action, and reports exactly how much it recovered.
 

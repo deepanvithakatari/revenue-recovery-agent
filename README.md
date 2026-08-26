@@ -23,6 +23,12 @@ Revenue loss rarely happens in one clean step. A payment fails for a dozen diffe
 - **Recovery rate:** 47.8%
 - **Exceptions flagged for human review:** 13 records
 
+## Assumptions & Limitations
+
+- Recovery success rates for each action (e.g. 55% for auto-retry) are realistic assumptions for this prototype, not measured from real historical outcomes.
+- `audit_trail.csv` contains the rule-based decisions only. `audit_trail_with_ai.csv` adds a plain-English explanation for each decision, generated using IBM watsonx (Llama 3.3 70B). The dashboard reads from the latter.
+- All customer and transaction data is synthetic, generated for this prototype — no real payment or customer data was used.
+
 ## Stopping Rules (Safety Guardrails)
 
 - Payments are never retried more than 2 times
@@ -37,6 +43,14 @@ Synthetic Data (CSV)
    → AI Explanation Layer (ai_explain.py — IBM watsonx)  
    → Dashboard (dashboard.py — Streamlit)
 
+## Project Structure
+
+- `generate_data.py` / `generate_invoices.py` — create synthetic failed payments and overdue invoices
+- `decision_logic.py` — diagnoses each record and decides an action, with stopping rules
+- `ai_explain.py` — generates plain-English explanations using IBM watsonx
+- `dashboard.py` — Streamlit dashboard showing results (uses the pre-generated CSVs, no credentials needed)
+- `credentials_example.py` — template showing the credentials format (copy to `credentials.py` and fill in your own to regenerate AI explanations)
+
 ## How to Run This Yourself
 
 1. Clone this repo
@@ -49,7 +63,7 @@ Synthetic Data (CSV)
    - `python ai_explain.py`
    - `streamlit run dashboard.py`
 
-   
+
 **Note:** `audit_trail_with_ai.csv` is already included with real AI-generated explanations, so you can run `streamlit run dashboard.py` immediately without needing your own IBM watsonx credentials. Credentials are only required if you want to regenerate the AI explanations yourself via `ai_explain.py`.
 
 ## What I'd Build Next

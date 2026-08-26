@@ -1,0 +1,3 @@
+pandas
+streamlit
+ibm-watsonx-ai
